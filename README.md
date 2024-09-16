@@ -11,14 +11,16 @@ This is a lightweight browser extension that allows you to effortlessly convert 
 - Optimized Sidebar Experience: A fixed sidebar for smooth operation and easy access to all plugin features.
 
 # Installation
-Clone the repository
-Load the extension into your browser:
-Open your browser and navigate to the extensions settings page.
-Enable developer mode.
-Select "Load unpacked" and choose the directory where you cloned the repository.
+1.Clone the repository
+2.Load the extension into your browser
+3.Open your browser and navigate to the extensions settings page.
+4.Enable developer mode.
+5.Select "Load unpacked" and choose the directory where you cloned the repository.
+
 # Usage
-Hover over any SVG image, and the plugin will display a small popup at the bottom-right corner of the image.
-Use the buttons to either Download the PNG file or Copy it to the clipboard.
+- Hover over any SVG image, and the plugin will display a small popup at the bottom-right corner of the image.
+- Use the buttons to either Download the PNG file or Copy it to the clipboard.
+- You can also drag and drop local SVG files directly into the plugin interface or copy SVG code blocks from any webpage to convert them to PNG.
 
 # Contribution
 Feel free to fork the repository and submit pull requests! Any contributions are welcome.
