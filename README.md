@@ -1,13 +1,14 @@
 # SVG-Copilot
- This is a lightweight browser extension that allows you to effortlessly convert SVG files to PNG format. The plugin offers real-time preview, download, and copy options, making the process quick and easy. It also includes a user-friendly sidebar for a streamlined experience.
 
 This is a lightweight browser extension that allows you to effortlessly convert SVG files to PNG format. The plugin offers real-time preview, download, and copy options, making the process quick and easy. It also includes a user-friendly sidebar for a streamlined experience.
 
+
 # Features
-SVG to PNG Conversion: Instantly convert SVG images to PNG with just a click.
-Preview & Customize: Real-time preview of the PNG output before downloading.
-Download & Copy: Easily download the converted image or copy it to the clipboard.
-Responsive Sidebar: A fixed sidebar for intuitive control and improved usability.
+- SVG to PNG Conversion: Instantly convert SVG images to PNG with just a click.
+- Drag-and-Drop Upload: Simply drag local SVG files into the plugin for quick PNG conversion.
+- SVG Code Block Handling: Select and highlight any SVG code block on a webpage, then copy and paste it into the input field for immediate preview and conversion.
+- Preview & Download: Real-time preview of the PNG output before downloading, with options to easily download or copy the image.
+- Optimized Sidebar Experience: A fixed sidebar for smooth operation and easy access to all plugin features.
 
 # Installation
 Clone the repository
