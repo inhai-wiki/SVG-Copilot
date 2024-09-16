@@ -11,11 +11,11 @@ This is a lightweight browser extension that allows you to effortlessly convert 
 - Optimized Sidebar Experience: A fixed sidebar for smooth operation and easy access to all plugin features.
 
 # Installation
-1.Clone the repository
-2.Load the extension into your browser
-3.Open your browser and navigate to the extensions settings page.
-4.Enable developer mode.
-5.Select "Load unpacked" and choose the directory where you cloned the repository.
+1. Clone the repository
+2. Load the extension into your browser
+3. Open your browser and navigate to the extensions settings page.
+4. Enable developer mode.
+5. Select "Load unpacked" and choose the directory where you cloned the repository.
 
 # Usage
 - Hover over any SVG image, and the plugin will display a small popup at the bottom-right corner of the image.
