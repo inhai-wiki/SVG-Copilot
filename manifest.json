@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "SVG Copilot - Convert SVG to PNG in Real-Time",
+  "version": "1.0",
+  "description": "Real-time SVG to PNG conversion with preview and download options. Effortlessly convert SVG to PNG with drag-and-drop support.",
+  "permissions": [
+    "sidePanel",
+    "downloads",
+    "clipboardRead",
+    "activeTab",
+    "storage",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Open SVG Copilot"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content_script.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
